@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Open+Sans&family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("/bmw_page/assets/wallpaper/ix3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav {
+    color: #fff;
+    display:  flex;
+    flex-direction: row;
+    gap: 10%;
+    cursor: pointer;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 30px;
+    list-style: none;
+    font-weight: bold;
+}
+
+.list li:hover {
+    color: rgb(156, 149, 149);
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    margin-left: 70px;
+    margin-top: 14px;
+    margin-right: 0px;
+}
+
+.search-bar {
+    width: 150px;
+    height: 20px;
+    margin-top: 30px;
+    border-radius: 2px;
+    border: none;
+    background-color: rgba(247, 247, 247, 0.315);
+    text-align: center;
+}
+
+.search-bar::placeholder {
+    color: #fff;
+}
+
+.title-text {
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 10%;
+    font-size: larger;
+}
+
+.btn1 {
+    width: 200px;
+    height: 50px;
+    background-color: #006eff;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.btn2 {
+    width: 200px;
+    height: 50px;
+    background-color: #fff;
+    margin-top: 40px;
+    margin-bottom: 150px;
+    border: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.btn1:hover {
+    background-color: #76b2ff;
+    transition: ease-in 0.7ms;
+}
+
+.btn2:hover {
+    background-color: rgb(66, 66, 66);
+    transition: ease-in 0.7ms;
+}
+
+.main {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    margin-top: 40px;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.card {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.card img {
+    width: 295px;
+    height: 150px;
+}
+
+.link-card {
+    color: rgb(94, 90, 90);
+}
+
+.buy {
+    width: 15%;
+    height: 40px;
+    background-color: #a09797;
+    color: #000000 ;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-top: 40px;
+    margin-left: 42.5%;
+    margin-right: 42.5%;
+}
+
+.buy:hover {
+    background-color: #006effd3;
+    transition: ease-in-out 0.3s;
+    color: #fff;
+}
+
+.boxs {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    gap: 5px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.boxs img {
+    width: 20%;
+}
+
+.box-left {
+    height: 130px;
+    width: 500px;
+    text-align: left;
+    text-transform: bold;
+    padding-left: 8px;
+    background-color: #a0979781;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.box-left-center {
+    height: 130px;
+    width: 500px;
+    background-color: #a0979781;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+    padding-top: 15px;
+}
+
+.box-right-center {
+    height: 130px;
+    width: 500px;
+    background-color: #a0979781;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+    padding-top: 15px;
+}
+
+.box-right {
+    height: 130px;
+    width: 500px;
+    background-color: #a0979781;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+    padding-top: 15px;
+}
