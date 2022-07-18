@@ -1,5 +1,9 @@
 <h1> BMW page </h1> <br>
 
+### DEMONSTRAÇÃO
+
+![PREVIEW](https://github.com/Gato-Da-Noite/BMW_page/blob/main/preview1.png)
+![PREVIEW2](https://github.com/Gato-Da-Noite/BMW_page/blob/main/preview2.png)
 
 ### TECNOLOGIAS USADAS
 
